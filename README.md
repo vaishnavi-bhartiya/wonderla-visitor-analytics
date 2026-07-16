@@ -11,18 +11,8 @@ SQL for KPI analysis, Python for data prep and customer value scoring, and Power
 Wonderla's marketing and growth teams need visibility into which customer segments, acquisition channels, and pricing strategies actually drive revenue and retention, rather than applying broad, undifferentiated campaigns. Without segment- and channel-level analysis, marketing spend risks being allocated inefficiently, and early signs of customer disengagement go unaddressed until they show up as lost revenue.
 
 ## Repo structure:
-├── data/
-│   ├── raw/
-│   │   └── wonderla_synthetic_visitor_data.xlsx   # source dataset (3,000 rows)
-│   └── processed/
-│       └── wonderla_scored.xlsx                   # cleaned + scored (output of python/)
-├── sql/
-│   └── Wanderla_Derived_Metrics.sql               # analysis queries
-├── python/
-│   └── Python-scoring layer.py                    # cleaning, feature engineering, scoring
-├── powerbi/
-│   └── Assignment.pbix                            # two-page dashboard
-└── README.md
+<img width="455" height="224" alt="image" src="https://github.com/user-attachments/assets/f1b38eb8-77fb-4aea-8385-8824c1a700e6" />
+
 
 
 ## How to reproduce
